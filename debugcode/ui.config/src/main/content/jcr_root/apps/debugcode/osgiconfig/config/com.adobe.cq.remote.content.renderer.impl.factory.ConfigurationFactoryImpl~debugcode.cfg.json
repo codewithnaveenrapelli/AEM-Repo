@@ -1,0 +1,9 @@
+{
+    "getContentPathPattern": "/content/debugcode/(.*)|/conf/debugcode/(.*)/settings/wcm/templates/(.*)",
+    "getRemoteHTMLRendererUrl" : "http://localhost:3233/api/v1/web/guest/debugcode-0.1.0/ssr",
+    "getRequestTimeout": 10000,
+    "getAdditionalRequestHeaders": [
+
+    ],
+    "getCompression": "none"
+}

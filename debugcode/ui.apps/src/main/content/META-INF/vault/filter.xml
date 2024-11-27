@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/debugcode/clientlibs"/>
+    <filter root="/apps/debugcode/components"/>
+    <filter root="/apps/debugcode/i18n"/>
+    <filter root="/apps/msm/debugcode_blueprint" mode="merge"/>
+</workspaceFilter>
