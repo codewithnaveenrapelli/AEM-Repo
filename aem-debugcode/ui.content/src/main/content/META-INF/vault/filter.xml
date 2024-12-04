@@ -2,6 +2,11 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/aem-debugcode" mode="merge"/>
     <filter root="/content/aem-debugcode" mode="merge"/>
+    <filter root="/content/dam/aem-debugcode/af_model_sample.json" mode="merge"/>
+    <filter root="/content/dam/aem-debugcode" mode="merge">
+        <include pattern="/content/dam/aem-debugcode(/.*)?"/>
+        <include pattern="/content/dam/aem-debugcode/jcr:content(/.*)?"/>
+    </filter>
     <filter root="/content/dam/aem-debugcode/asset.jpg" mode="merge"/>
     <filter root="/content/experience-fragments/aem-debugcode" mode="merge"/>
 </workspaceFilter>
