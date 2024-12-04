@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/conf/debugcode" mode="merge"/>
-    <filter root="/content/debugcode" mode="merge"/>
-    <filter root="/content/dam/debugcode" mode="merge">
-        <include pattern="/content/dam/debugcode(/.*)?"/>
-    </filter>
-    <filter root="/content/experience-fragments/debugcode" mode="merge"/>
-</workspaceFilter>
