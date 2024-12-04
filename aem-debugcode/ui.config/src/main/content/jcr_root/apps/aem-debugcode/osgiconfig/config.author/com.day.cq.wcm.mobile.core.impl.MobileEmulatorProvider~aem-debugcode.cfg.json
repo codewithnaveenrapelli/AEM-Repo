@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "aem-debugcode/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}
