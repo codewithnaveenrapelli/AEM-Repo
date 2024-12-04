@@ -78,13 +78,20 @@
                             <target>/apps/aem-debugcode-packages/application/install</target>
                         </embedded>
                         <embedded>
-                            <groupId>com.adobe.aem</groupId>
-                            <artifactId>spa.project.core.core</artifactId>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.content</artifactId>
+                            <type>zip</type>
                             <target>/apps/aem-debugcode-vendor-packages/application/install</target>
                         </embedded>
                         <embedded>
-                            <groupId>com.adobe.aem</groupId>
-                            <artifactId>spa.project.core.ui.apps</artifactId>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.core</artifactId>
+                            <target>/apps/aem-debugcode-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.config</artifactId>
+                            <type>zip</type>
                             <target>/apps/aem-debugcode-vendor-packages/application/install</target>
                         </embedded>
                     </embeddeds>
@@ -107,18 +114,6 @@
                         <phase>initialize</phase>
                         <goals>
                             <goal>clean</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>com.adobe.aem</groupId>
-                <artifactId>aemanalyser-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>aem-analyser</id>
-                        <goals>
-                            <goal>project-analyse</goal>                           
                         </goals>
                     </execution>
                 </executions>
@@ -207,15 +202,15 @@
             <type>zip</type>
         </dependency>
 
-        <!-- SPA Project Core (includes hierarchy page) -->
         <dependency>
-            <groupId>com.adobe.aem</groupId>
-            <artifactId>spa.project.core.ui.apps</artifactId>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.content</artifactId>
             <type>zip</type>
         </dependency>
         <dependency>
-            <groupId>com.adobe.aem</groupId>
-            <artifactId>spa.project.core.core</artifactId>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.config</artifactId>
+            <type>zip</type>
         </dependency>
     </dependencies>
 </project>

@@ -338,40 +338,7 @@
                     clientlibsJsHead="aem-debugcode.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
-                <policy_spa
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Debug Code SPA Page Policy"
-                    sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[aem-debugcode.react]">
-                    <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy_spa>
             </page>
-            <spa jcr:primaryType="nt:unstructured">
-                <default
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Debug Code App Policy"
-                    sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[aem-debugcode.react]"
-                    isRoot="{Boolean}true"
-                    structureDepth="3"
-                />
-            </spa>
         </components>
     </aem-debugcode>
-    <wcm jcr:primaryType="nt:unstructured">
-        <foundation jcr:primaryType="nt:unstructured">
-            <components jcr:primaryType="nt:unstructured">
-                <responsivegrid jcr:primaryType="nt:unstructured">
-                    <spa-default
-                        jcr:description="Includes only SPA-Enabled components."
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="SPA Content"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/aem-debugcode/components/text]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </spa-default>
-                    </responsivegrid>
-            </components>
-        </foundation>
-    </wcm>
 </jcr:root>

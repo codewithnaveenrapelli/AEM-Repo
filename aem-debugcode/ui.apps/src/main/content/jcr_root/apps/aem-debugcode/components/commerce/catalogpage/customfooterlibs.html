@@ -13,7 +13,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
-<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
-    <sly data-sly-call="${clientlib.js @ categories='aem-debugcode.base'}"/>
-    <sly data-sly-call="${clientlib.js @ categories='aem-debugcode.cif'}" />
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.js @ categories='aem-debugcode.base', async=true}"/>
+    <sly data-sly-call="${clientlib.js @ categories='aem-debugcode.cif', async=true}" />
 </sly>

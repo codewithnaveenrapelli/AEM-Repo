@@ -5,7 +5,7 @@
         cq:allowedTemplates="[/conf/aem-debugcode/settings/wcm/templates/(?!xf-).*]"
         cq:conf="/conf/aem-debugcode"
         cq:redirectTarget="/content/aem-debugcode/us/en"
-        cq:template="/conf/aem-debugcode/settings/wcm/templates/spa-app-template"
+        cq:template="/conf/aem-debugcode/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="Debug Code"
         sling:configRef="/conf/aem-debugcode"
